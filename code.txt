@@ -1,0 +1,6 @@
+proc start
+cls
+$k='d
+'
+echo _k
+run $
