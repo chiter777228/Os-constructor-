@@ -1,0 +1,105 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit1H
+#define Unit1H
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include <ExtCtrls.hpp>
+#include <Menus.hpp>
+#include <Dialogs.hpp>
+#include <ImgList.hpp>
+#include <ComCtrls.hpp>
+#include <ToolWin.hpp>
+#include <ExtDlgs.hpp>
+#include <IdBaseComponent.hpp>
+#include <IdComponent.hpp>
+#include <IdHTTP.hpp>
+#include <IdTCPClient.hpp>
+#include <IdTCPConnection.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+        TMemo *Memo1;
+        TMemo *Memo2;
+        TMainMenu *MainMenu1;
+        TMenuItem *N1;
+        TMenuItem *N2;
+        TMenuItem *N3;
+        TMenuItem *N4;
+        TMenuItem *N5;
+        TMenuItem *N6;
+        TMenuItem *N7;
+        TMenuItem *N8;
+        TMenuItem *N9;
+        TMenuItem *N10;
+        TOpenDialog *OpenDialog1;
+        TSaveDialog *SaveDialog1;
+        TMenuItem *N11;
+        TMenuItem *N12;
+        TMenuItem *N13;
+        TMenuItem *N14;
+        TImageList *ImageList1;
+        TToolBar *ToolBar1;
+        TToolButton *ToolButton1;
+        TToolButton *ToolButton2;
+        TToolButton *ToolButton3;
+        TToolButton *ToolButton4;
+        TToolButton *ToolButton5;
+        TToolButton *ToolButton6;
+        TToolButton *ToolButton7;
+        TToolButton *ToolButton8;
+        TToolButton *ToolButton9;
+        TOpenPictureDialog *OpenPictureDialog1;
+        TMenuItem *N16;
+        TSaveDialog *SaveDialog2;
+        TMenuItem *j1;
+        TToolButton *ToolButton10;
+        TToolButton *ToolButton11;
+        TToolButton *ToolButton12;
+        TIdHTTP *IdHTTP1;
+        TMenuItem *N17;
+        TToolButton *ToolButton13;
+        TMenuItem *N18;
+        TMenuItem *N19;
+        TMenuItem *N20;
+        TStatusBar *StatusBar1;
+        TSplitter *Splitter1;
+        TListBox *ListBox1;
+        TSplitter *Splitter3;
+        TPanel *Panel1;
+        TLabel *Label1;
+        TLabel *Label2;
+        void __fastcall Button1Click(TObject *Sender);
+        void __fastcall FormShow(TObject *Sender);
+        void __fastcall N2Click(TObject *Sender);
+        void __fastcall N8Click(TObject *Sender);
+        void __fastcall N3Click(TObject *Sender);
+        void __fastcall N4Click(TObject *Sender);
+        void __fastcall N12Click(TObject *Sender);
+        void __fastcall N14Click(TObject *Sender);
+        void __fastcall N15Click(TObject *Sender);
+        void __fastcall N16Click(TObject *Sender);
+        void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
+        void __fastcall Label1Click(TObject *Sender);
+        void __fastcall j1Click(TObject *Sender);
+        void __fastcall N17Click(TObject *Sender);
+        void __fastcall N19Click(TObject *Sender);
+        void __fastcall N20Click(TObject *Sender);
+        void __fastcall N10Click(TObject *Sender);
+        void __fastcall Memo1KeyUp(TObject *Sender, WORD &Key,
+          TShiftState Shift);
+        void __fastcall Label2Click(TObject *Sender);
+        void __fastcall Memo2KeyUp(TObject *Sender, WORD &Key,
+          TShiftState Shift);
+private:	// User declarations
+public:		// User declarations
+        __fastcall TForm1(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif
